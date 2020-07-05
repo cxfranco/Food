@@ -10,7 +10,8 @@ namespace Food.Mobile
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new StackLayout();
         }
 
         protected override void OnStart()
