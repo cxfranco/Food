@@ -29,17 +29,17 @@
 
             <StackLayout Orientation="Horizontal" HeightRequest="150">
                 <Button    
-                    BackgroundColor="Blue"
+                    BackgroundColor="#96d1ff"
                     IsEnabled="True" 
-                    Text="Category"  
+                    Text="Customer"  
                     FontAttributes="Bold" 
                     WidthRequest="400" 
                     TextColor="White"
                     ContentLayout="Top,0"/>
                 <Button    
-                    BackgroundColor="#96d1ff"
+                    BackgroundColor="Blue"
                     IsEnabled="True" 
-                    Text="Seller"  
+                    Text="PayType"  
                     FontAttributes="Bold" 
                     WidthRequest="400" 
                     TextColor="White"
@@ -50,7 +50,7 @@
                 <Button    
                     BackgroundColor="Blue"
                     IsEnabled="True" 
-                    Text="Category"  
+                    Text="Product"  
                     FontAttributes="Bold" 
                     WidthRequest="400" 
                     TextColor="White"
@@ -58,7 +58,7 @@
                 <Button    
                     BackgroundColor="#96d1ff"
                     IsEnabled="True" 
-                    Text="Seller"  
+                    Text="Order"  
                     FontAttributes="Bold" 
                     WidthRequest="400" 
                     TextColor="White"
