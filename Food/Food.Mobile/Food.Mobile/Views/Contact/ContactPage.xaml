@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Food.Mobile.Views.Contact.ContactPage">
+    <ContentPage.Content>
+        
+        
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" ></ColumnDefinition>
+                <ColumnDefinition Width="Auto" ></ColumnDefinition> 
+            </Grid.ColumnDefinitions>
+        
+
+            <Label      Grid.Row="0"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="3"
+                        Text="FORMULARIO DE CONTACTOS" HorizontalTextAlignment="Center" TextColor="Black" FontSize="30" />
+             
+            <Label
+                        FontSize="Large"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        VerticalOptions="Center"
+                        Text="Título:"></Label>
+            <Entry 
+                        FontSize="Large" 
+                        Grid.Row="1"
+                        Grid.Column="1" 
+                        WidthRequest="250"
+                        Text="{Binding cobrado}" 
+                        Placeholder=""></Entry>
+
+            <Label
+                        FontSize="Large"
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="2"
+                        HorizontalOptions="Start"
+                        Text="Descripción:"></Label>
+            <Editor 
+                        FontSize="Large" 
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="2"
+                        Text="" 
+                        Placeholder="Agregar Descripción"></Editor>
+
+
+        </Grid>
+
+    
+    </ContentPage.Content>
+</ContentPage>

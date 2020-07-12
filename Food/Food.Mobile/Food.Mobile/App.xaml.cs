@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Food.Mobile.Views.Contact;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,7 +13,10 @@ namespace Food.Mobile
 
             //MainPage = new MainPage();
             //MainPage = new StackLayout();
-            MainPage = new GridLayoutPage();
+            //MainPage = new GridLayoutPage();
+
+            //MainPage = new ContactPage();
+            MainPage = new ContactsPage();
         }
 
         protected override void OnStart()
